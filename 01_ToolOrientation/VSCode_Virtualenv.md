@@ -139,3 +139,19 @@ python -m virtualenv venv
 * Open hello.py
 * run hello.py
 * notice that the prompt has (venv) in front.
+
+# Install Training Course Dependencies into Virtualenv
+
+* Open a terminal if you don't already have one open
+* Make sure its using the virutalenv, prompt should look similar to what is shown below.  Make sure you can see `(venv)` at the start of the prompt
+
+``` 
+(venv) @ C:\training\python
+$ 
+```
+
+* install the training dependencies:
+
+```
+pip install -r requirements.txt
+```
