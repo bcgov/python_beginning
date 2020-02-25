@@ -5,10 +5,10 @@
 This repository contains the course material that will be used to deliver an introduction to python instructor led / classroom based python training course to bcgov staff.
 
 Students participating in this course will need to complete the steps 
-identified in the [course prerequisites document](./prereq/prerequisites.md), which involves
+identified in the [course prerequisites document](./00_PreReq/prerequisites.md), which involves
 installing some software and cloneing this repo.
 
-* [Prerequisitis document](./prereq/prerequisites.md)
+* [Prerequisite document](./00_PreReq/prerequisites.md)
 
 # Course Agenda
 

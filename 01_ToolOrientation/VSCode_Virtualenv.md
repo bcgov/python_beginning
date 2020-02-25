@@ -155,3 +155,38 @@ $
 ```
 pip install -r requirements.txt
 ```
+
+## Python Interactive window
+
+### Create an Interactive Window
+
+* open a terminal
+* type `python`
+
+```
+(venv) @ C:\Kevin\proj\python_training
+$ python
+Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+* `>>>` is the python prompt.
+* to exit either:
+    *  type: `exit()`
+    * ctrl->z->enter
+
+### [Getting Help](https://developers.google.com/edu/python/introduction#online-help,-help-,-and-dir)
+
+* google your question
+* search stack exchange directly
+* Read the docs at [python.org](https://docs.python.org/3/)
+* use the built in `help` and `dir` functions
+
+You can never go wrong with an o'reilley book:
+
+<img src="https://covers.oreillystatic.com/images/0636920028154/cat.gif">
+
+http://shop.oreilly.com/product/0636920028154.do
+
+
