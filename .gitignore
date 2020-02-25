@@ -128,4 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-googleExercises
+# ignore google exercises
+googleExercises/
+
+junk.*
+junk*
+
