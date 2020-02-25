@@ -1,17 +1,28 @@
 # Beginning Python
 
+*outline / notes page for delivery of intro / admin. topics to be covered*
+
 ## Welcome
 
 ### Introductions
 * Whoami
-* Who are you
+* Who are you.
+   * Name
+   * What you want to be able to use python for
+   * What you are hoping to walk away from the course with.
 
 ### Why Python
-* Easiest / Cleanest / Fastest Language to develop with
-* Mature, tons of docs, tons of third party contributions
+* Easiest / Cleanest / Fastest for development
+* Mature, **tons of docs**, tons of third party contributions
 * Continues to Grow...
 
+**Programming language Growth**
+
 <IMG src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png" width=700>
+
+**Questions on Stackexchange**
+
+<IMG src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/05/languages-2-1024x621.png" width=700 style="background-color:white;padding:1px;">
 
 ### Python is small
 * The total number of [reserved words](https://docs.python.org/3.3/reference/lexical_analysis.html#keywords) that make up the language: **33**
@@ -60,3 +71,4 @@ Everyone has the following installed:
    * **virtualenv / pip:** managing dependencies
    * **git:** source code / version management
    * **VSCode:** Integrated Development Environment (IDE)
+

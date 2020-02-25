@@ -130,3 +130,7 @@ dmypy.json
 
 # ignore google exercises
 googleExercises/
+
+junk.*
+junk*
+

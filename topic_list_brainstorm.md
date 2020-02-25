@@ -11,3 +11,15 @@ Git in vscode, how to commit.
 
 
 
+help demo on different function
+
+
+imports
+
+review basics of git
+
+
+ininstance( for strings)
+type()
+
+using these with if
