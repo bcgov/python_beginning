@@ -29,9 +29,8 @@ git pull origin master
 * Creating virtual environment using virtualenv
 * String data types
 * Other data types (numbers, booleans)
-* Conditional statements
-* More data types (lists, dicts)
-* Loops / Iterations
+* L3 - Lists / Logic / Loops
+* More data types (dicts)
 
 ## Day 2:
 * First steps to understanding and using GIT.
