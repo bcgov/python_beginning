@@ -17,3 +17,12 @@
 * daabases?
 
 * lists lesson, add some more smaller exiercises into the lesson.
+* remove output from notebooks
+ 
+
+ lesson flow:
+    ...
+    working with files
+    dictionaries
+    functions / utilities / pypi / imports
+    apis
