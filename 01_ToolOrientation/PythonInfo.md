@@ -72,3 +72,7 @@ Everyone has the following installed:
    * **git:** source code / version management
    * **VSCode:** Integrated Development Environment (IDE)
 
+* Course is designed to you started.
+    * Revisit the docs at [python.org](https://docs.python.org/3/) regularly as your skills grow
+    * [python.org tutorial](https://docs.python.org/3/tutorial/index.html) is a good place to come back to on a regular basis.
+
