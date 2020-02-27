@@ -1,0 +1,32 @@
+id,name,arena,city,abbrev,teamName,location,inceptionYear,division,conference
+1,New Jersey Devils,Prudential Center,Newark,NJD,Devils,New Jersey,1982,Metropolitan,Eastern
+2,New York Islanders,Barclays Center,Brooklyn,NYI,Islanders,New York,1972,Metropolitan,Eastern
+3,New York Rangers,Madison Square Garden,New York,NYR,Rangers,New York,1926,Metropolitan,Eastern
+4,Philadelphia Flyers,Wells Fargo Center,Philadelphia,PHI,Flyers,Philadelphia,1967,Metropolitan,Eastern
+5,Pittsburgh Penguins,PPG Paints Arena,Pittsburgh,PIT,Penguins,Pittsburgh,1967,Metropolitan,Eastern
+6,Boston Bruins,TD Garden,Boston,BOS,Bruins,Boston,1924,Atlantic,Eastern
+7,Buffalo Sabres,KeyBank Center,Buffalo,BUF,Sabres,Buffalo,1970,Atlantic,Eastern
+8,Montréal Canadiens,Bell Centre,Montréal,MTL,Canadiens,Montréal,1909,Atlantic,Eastern
+9,Ottawa Senators,Canadian Tire Centre,Ottawa,OTT,Senators,Ottawa,1990,Atlantic,Eastern
+10,Toronto Maple Leafs,Scotiabank Arena,Toronto,TOR,Maple Leafs,Toronto,1917,Atlantic,Eastern
+12,Carolina Hurricanes,PNC Arena,Raleigh,CAR,Hurricanes,Carolina,1979,Metropolitan,Eastern
+13,Florida Panthers,BB&T Center,Sunrise,FLA,Panthers,Florida,1993,Atlantic,Eastern
+14,Tampa Bay Lightning,AMALIE Arena,Tampa,TBL,Lightning,Tampa Bay,1991,Atlantic,Eastern
+15,Washington Capitals,Capital One Arena,Washington,WSH,Capitals,Washington,1974,Metropolitan,Eastern
+16,Chicago Blackhawks,United Center,Chicago,CHI,Blackhawks,Chicago,1926,Central,Western
+17,Detroit Red Wings,Little Caesars Arena,Detroit,DET,Red Wings,Detroit,1926,Atlantic,Eastern
+18,Nashville Predators,Bridgestone Arena,Nashville,NSH,Predators,Nashville,1997,Central,Western
+19,St. Louis Blues,Enterprise Center,St. Louis,STL,Blues,St. Louis,1967,Central,Western
+20,Calgary Flames,Scotiabank Saddledome,Calgary,CGY,Flames,Calgary,1980,Pacific,Western
+21,Colorado Avalanche,Pepsi Center,Denver,COL,Avalanche,Colorado,1979,Central,Western
+22,Edmonton Oilers,Rogers Place,Edmonton,EDM,Oilers,Edmonton,1979,Pacific,Western
+23,Vancouver Canucks,Rogers Arena,Vancouver,VAN,Canucks,Vancouver,1970,Pacific,Western
+24,Anaheim Ducks,Honda Center,Anaheim,ANA,Ducks,Anaheim,1993,Pacific,Western
+25,Dallas Stars,American Airlines Center,Dallas,DAL,Stars,Dallas,1967,Central,Western
+26,Los Angeles Kings,STAPLES Center,Los Angeles,LAK,Kings,Los Angeles,1967,Pacific,Western
+28,San Jose Sharks,SAP Center at San Jose,San Jose,SJS,Sharks,San Jose,1990,Pacific,Western
+29,Columbus Blue Jackets,Nationwide Arena,Columbus,CBJ,Blue Jackets,Columbus,1997,Metropolitan,Eastern
+30,Minnesota Wild,Xcel Energy Center,St. Paul,MIN,Wild,Minnesota,1997,Central,Western
+52,Winnipeg Jets,Bell MTS Place,Winnipeg,WPG,Jets,Winnipeg,2011,Central,Western
+53,Arizona Coyotes,Gila River Arena,Glendale,ARI,Coyotes,Arizona,1979,Pacific,Western
+54,Vegas Golden Knights,T-Mobile Arena,Las Vegas,VGK,Golden Knights,Vegas,2016,Pacific,Western

@@ -117,7 +117,7 @@ python -m virtualenv venv
 * demo where the settings are in the folder `.vscode/settings.json`
 
 
-### Install Virtualenv (Mac/Linux)
+### Install Virtualenv (Mac/Linux/WSL)
 
 ```
 python -m virtualenv venv
@@ -132,6 +132,24 @@ python -m virtualenv venv
 ...
 "python.pythonPath": "<path to virtualenv>", 
 ...
+```
+
+### Activate Virtualenv
+
+* with VSCode you shouldn't need to do this, especially if you named your virtualenv `venv`
+* You will need to do these steps if you build/deploy your code to Jenkins/Github Actions/Openshift.
+* to simulate this you can run these commands 
+
+#### Activate on Windows
+```
+cd <to project dir>
+.\venv\Scripts\activate.bat
+```
+
+#### Activate on a normal os (linux/wsl/osx)
+```
+cd <to project dir>
+source venv/bin/activate
 ```
 
 ### Run hello.py

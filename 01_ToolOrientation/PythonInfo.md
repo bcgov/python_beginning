@@ -71,8 +71,15 @@ Everyone has the following installed:
    * **virtualenv / pip:** managing dependencies
    * **git:** source code / version management
    * **VSCode:** Integrated Development Environment (IDE)
+* Get you started with how to interact with web services using python
 
 * Course is designed to you started.
     * Revisit the docs at [python.org](https://docs.python.org/3/) regularly as your skills grow
     * [python.org tutorial](https://docs.python.org/3/tutorial/index.html) is a good place to come back to on a regular basis.
 
+## Training Format
+* departure from standard lecture / lab format
+* A *LOT* of material to be covered.
+* Trying out new approach / small lesson / small group exercise
+* Much of the course will use Jupyter notebooks
+* Hoping the notebooks can serve as a place where you can add your notes, and include code examples.

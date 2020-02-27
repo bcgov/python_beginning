@@ -6,6 +6,7 @@ import requests
 import os.path
 import pprint
 import urllib
+import codecs
 import json
 
 PP = pprint.PrettyPrinter(indent=4)
@@ -68,6 +69,19 @@ def getTeams():
 
     PP.pprint(teamIdLookup)
 
+    with codecs.open('data/teams.json', 'w', "utf-8") as outfile:
+        json.dump(jsonData, outfile)
+
+    return jsonData
+
+
+def getteamIds():
+    teamData = getTeams()
+    teamIds = []
+    for team in teamData['data']:
+        teamIds.append(team['id'])
+    return teamIds
+
 def getPlayersByTeam(team):
     endpoint = f'player/byTeam/{team}'
     # for urljoin to work must have a / at the end of the rootUrl
@@ -80,7 +94,7 @@ def getPlayersByTeam(team):
     resp = requests.get(dstUrl, headers=header)
     jsonData = resp.json()
 
-    with open(f'players_t{team}.json', 'w') as outfile:
+    with codecs.open(f'players_t{team}.json', 'w', "utf-8") as outfile:
         json.dump(jsonData, outfile)
     names = {}
 
@@ -95,7 +109,52 @@ def getPlayersByTeam(team):
     namesList.sort()
     print('\n'.join(namesList))
 
+def getAllPlayers():
+    teamids = getteamIds()
+    print(teamids)
+    for teamID in teamids:
+        pass
+        
+
+def createTeamsCSV():
+    outFile = 'data/teams.csv'
+    fh = codecs.open(outFile, 'w', 'utf-8')
+    teamsData = getTeams()
+    csvHeader = ['id', 'name', 'arena', 'city', 'abbrev', 
+                 'teamName', 'location', 'inceptionYear', 
+                 'division', 'conference']
+    fh.write(','.join(csvHeader) + '\n')
+    for teamData in teamsData['teams']:
+        lineList = []
+        lineList.append(teamData['id'])
+        lineList.append(teamData['name'])
+        lineList.append(teamData['venue']['name'])
+        lineList.append(teamData['venue']['city'])
+        lineList.append(teamData['abbreviation'])
+        lineList.append(teamData['teamName'])
+        lineList.append(teamData['locationName'])
+        lineList.append(teamData['firstYearOfPlay'])
+        lineList.append(teamData['division']['name'])
+        lineList.append(teamData['conference']['name'])
+        for elemPos in range(0, len(lineList)):
+            lineList[elemPos] = str(lineList[elemPos])
+            
+
+        lineStr = ','.join(lineList)
+        print(f"lineList {','.join(lineList)}")
+        if lineList:
+            fh.write(','.join(lineList) + '\n')
+    fh.close()
+
+
 if __name__ == '__main__':
     #getTeams()
+    #createTeamsCSV()
     # mtrl = 8
-    getPlayersByTeam('8')
+    #getPlayersByTeam('8')
+
+    #getAllPlayers()
+    import os
+    for env in os.environ:
+        if env[0].upper() == 'Z':
+            print(env)
