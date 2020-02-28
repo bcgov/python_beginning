@@ -8,7 +8,7 @@ Students participating in this course will need to complete the steps
 identified in the [course prerequisites document](00_PreReq/prerequisites.md), which involves
 installing some software and cloneing this repo.
 
-* [Prerequisite document](00_PreReq/prerequisites.md)
+* [Prerequisite document](../00_PreReq/prerequisites.md)
 
 # Course Agenda
 
