@@ -8,6 +8,7 @@ import pprint
 import urllib
 import codecs
 import json
+import requests.auth
 
 PP = pprint.PrettyPrinter(indent=4)
 
@@ -42,6 +43,8 @@ dstUrl = urllib.parse.urljoin(rootUrl, endpoint)
 resp = requests.get(dstUrl)
 jsonResp = resp.json()
 print(pprint.pformat(jsonResp))
+# add to get player
+roster?season={season}
 '''
 
 def getFranchises():
@@ -147,6 +150,46 @@ def createTeamsCSV():
     fh.close()
 
 
+class GithubAPI():
+
+    def __init__(self):
+        self.rootUrl = 'https://api.github.com/'
+        self.pac = os.environ['GHTOKEN']
+
+    def getHeader(self):
+        header = ""
+
+    def getUserRepos(self, user):
+        endPoint = 'users/franTarkenton/repos'
+        fullUrl = urllib.parse.urljoin(self.rootUrl, endPoint)
+        print(f"fullUrl: {fullUrl}")
+
+        resp = getUserRepos
+
+    def getGists(self, user):
+        endPoint = f'users/{user}/gists'
+        fullUrl = urllib.parse.urljoin(self.rootUrl, endPoint)
+        print(f"fullUrl: {fullUrl}")
+        resp = requests.get(fullUrl)
+        print(f'status_code: {resp.status_code}')
+        gistData = resp.json()
+        #PP.pprint(gistData)
+        print(f"num recs={len(gistData)}")
+
+    def getGistsWithAuth(self, user):
+        endPoint = f'users/{user}/gists'
+        fullUrl = urllib.parse.urljoin(self.rootUrl, endPoint)
+        print(f"fullUrl: {fullUrl}")
+        auth=requests.auth.HTTPBasicAuth(user, self.pac)
+        resp = requests.get(fullUrl, auth=auth)
+        print(f'status_code: {resp.status_code}')
+        gistData = resp.json()
+        #PP.pprint(gistData)
+        print(f"num recs={len(gistData)}")
+
+
+    #https://api.github.com/users/franTarkenton/repos
+
 if __name__ == '__main__':
     #getTeams()
     #createTeamsCSV()
@@ -154,7 +197,13 @@ if __name__ == '__main__':
     #getPlayersByTeam('8')
 
     #getAllPlayers()
-    import os
-    for env in os.environ:
-        if env[0].upper() == 'Z':
-            print(env)
+   
+    gapi = GithubAPI()
+    #gapi.getGists('franTarkenton')
+    gapi.getGistsWithAuth('franTarkenton')
+
+    
+    #getFranchises()
+
+    # mtl = 1
+    #
