@@ -24,5 +24,8 @@
     ...
     working with files
     dictionaries
-    functions / utilities / pypi / imports
+    utilities / pypi / imports
     apis
+
+* docstrings make part of utilities
+* pprint with the dict / json lesson
