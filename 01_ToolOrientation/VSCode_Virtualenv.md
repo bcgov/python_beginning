@@ -5,6 +5,8 @@
 
 # Intro To VSCode - 1
 
+<img src="https://lh3.googleusercontent.com/fpy1e4CEAG7bdNMGihezo_-eTUj_w5nyoYT8lrT-KT6w4AstNaool4Ny7R4aFzhjkjpkgJdLfLNNAmHqjWVrV_2zaY0GFfOB9euEAu32cgdPtdazbDuVVoKEZgrXGPnCfDMGeL8lUeAnuwC_WkBVmRkbzeCjyDBJBGvZtBlWZfhq4t7Y0nAJtQjM9oljH1f5gKPMkO_pIUCeaE0GCRBPFZrQ4cLGDSd-PBsod-tsWuCNrmY5jRl9pDmmzlnesBTMUcWCtoAoqKPAjHYSjwDY218sjl4InELb1_fkpx907y30WXjYu54cyoXOfg39roNWJ9iMqWztoOPJh8JDXcBQjcYYXon8774AfJEmYkmiOYUdq4rl_X5QAH7b1P2xkcBpymp_wVy35RbZrG4w_MVw7mDSdbudHPCaaChLyNRcZXQLgVhF2S1tJ1vi59e1gJlu9HRly-zE_3Z518PCG3CAu9v0qpAWkAmvRYZ3Q16BZz5cQ4Oj6XVNXILyVTq1OMy108ukWBsBC981aRuPPzLv8_Iaa7xShfkCr02qDifJEoqw-fuD5l6Bl9B4lxCWbhjuVbbQoq23YA2265Tm5Oc0Z0r8NGF6i5ctWjnTAQk94ZrwSGoRScXqJsvR4vxTvqLyPB729TVq2GHfk5qxeEyGzX1zEOjfHBCcuskmSWFywih3D5jg8x0ULmpYo74WsjvfFbi2h18Twf4blxPD_qcniC0n_QJr4_OgHg2OVRPKxiQ7Rwu8=w716-h954-no" width=200>
+
 Basic orientation.  Will cover more of this later once we get into 
 code editing as some of those features will be more applicable then.
 
@@ -69,6 +71,8 @@ This lesson will loosely follow the VS code [getting started with the userinterf
 * go to terminal and press `up arrow` to get last command and enter to re-run.
 
 # VirtualEnv and PIP
+
+<img src="https://lh3.googleusercontent.com/3bOtUqtA9fOXILN0ajd6AEXFVxV9ItxaHjQvryHdnVA98PUFxr_0csykpFSRYd69Ur6gsJ4QEamj_pnxC713QVVHLpjrsEuAd8VVU6OFI4QCdbT3WTOUKAqeiah1eqDTTITePy_fqj8zcOSkvdYxWlWDRLkOWF92zZsMemCeP3OV0YqutCDK8VbqB9g9NX59v1Q6QnSSgoRZvPUzRsVnJw1HEFcdgoHYEWPfVVjACgUxJ9JC_3nZVwoz8j4nod7PBw30mLfv13zKClSFUKQCCCkhG8GpHEC7ZwYqIWzOF4HMEwRaVrut4dvJaDjLnml_I9foBpwzjYqS97-i5lMFYIA4yt9GW1aLq_6KKEyzl0rexrCAZWec6U7KWzAEkHc20XMxOh9-2ncV2I2tfcZdr2CsN0NHUPjbpBOO6VZuu1cPniU8xPuOIaAPZ01LHfktklxOsSxBft1IrB0s18HNENqaMPqsu4b2bEZc45rV7pxj_9fFcH6X6d1hws9uvqiNUYIXhdyKCBcSAOlw8uCEoJ2v9Ku74kuYyTp4LaNRJWm0gN6U6skwSuAE6mJnGlyXUwMb3gtPuibm7qtGg51548wPCdgY8ICCqljXbnjZ51c3zX8T7nTbiVjGr797nOyZecoF0-jMGF8lxthKu6J_cG_KXa5iMkiBRHxHdipzVcx8q7BkCjqwO3pJNQEkYUkLeiQrc5U-EEsiLLgD3ujaQdytq3Q2CnzxgaZQVMJiZSdVoI5z=w1272-h954-no" width=400>
 
 Allows for isolation of dependencies between projects.
 
@@ -160,6 +164,8 @@ source venv/bin/activate
 
 # Install Training Course Dependencies into Virtualenv
 
+<img src="https://lh3.googleusercontent.com/DGKU-YguC7x9ZUkMMIP11HePEvOcZ7aFXzqlLzpsgbwRZel4UhaDhmO47oBBqLEr4GI9unbmJvIhKBPqkR1RtEKQHa6x16Qta8M_7liJcTrmUt0MwSHIS2n0bXgroPJ-eqDqZLWgCNQiCUSbASPVl8LfPdj3x56DZVKBcWkUEeT-pzXFc8xgE5R4SPomBorS4IZ0-Ic9aqf8qKTVG6tywUO2AUxM6ALja05WCN7HWJb_MWS3MuBbfFQf4GvIbGlpNXKxfWEDCSbWBahpPjgHk1Adt-ZtdDnT2RvSvLIXeHhyL-8-_tH6ZlVraSI5yP_2OzMpwj-CqAyNISgVH359IPCxRk0wew8n6iZnxIdccUb3div-oN6hY9XxYuZJzbMRldhQ8PgV_MRaMcYbGp4erbLH7O6frDBfI38GSyKs5TOeWgIU9uPNu42_siMUmN79yTd422yMSqLyGTs9hCNPRzkIRpda_04str5ZNlEpm8SJ9-aRSMHJLi9I0WVDrGD8-WRHeExWqYJwrro8XFWBljEiA0Iw1aIped6Byj30XHnK5yGBhM-vD58TUyHfvFrJ_c2H-8aeSWNImM8Vc7Fo23gaETG5RC6elmxsujsPVzUMTiCWJz4r6c_ihf2nQ8465NooirnzQM64UC1JuYhTzZISPArOPEs6vQMPmvl5GQYcNaw5Da7Q9zzHitknoOMA4_RAvb7hq7zGm0BuA7d_w5n1Vwza3kilbkBDQ9Xav6pcAA4G=w1017-h763-no" width=500>
+
 * Open a terminal if you don't already have one open
 * Make sure its using the virutalenv, prompt should look similar to what is shown below.  Make sure you can see `(venv)` at the start of the prompt
 
@@ -201,7 +207,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 * Read the docs at [python.org](https://docs.python.org/3/)
 * use the built in `help` and `dir` functions
 
-You can never go wrong with an o'reilley book:
+You can never go wrong with an o'reilly book:
 
 <img src="https://covers.oreillystatic.com/images/0636920028154/cat.gif">
 
