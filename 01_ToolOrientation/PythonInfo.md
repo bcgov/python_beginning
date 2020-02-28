@@ -36,6 +36,8 @@ assert     else       import     pass
 break      except     in         raise
 ```
 
+*Python execution speed is slow, however relative development time is fast*
+
 ### Who is using python:
 * **Everyone!**
 * dropbox

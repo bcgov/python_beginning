@@ -30,12 +30,15 @@ git pull origin master
 * String data types
 * Other data types (numbers, booleans)
 * L3 - Lists / Logic / Loops
-* More data types (dicts)
+* Functions
+* Working with Files
+* More data types (dicts), complex structs, json
 
 ## Day 2:
 * First steps to understanding and using GIT.
-* Complex Data, combining data structures
 * API's, Getting complex data structs from the web
+* your time.
 
+**Warning**: Trying a different approach in this training... Not sure how far we will get.
 
 *Stay tuned!  Checkback often as more content is added here!*
