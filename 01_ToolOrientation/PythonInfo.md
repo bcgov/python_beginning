@@ -68,6 +68,7 @@ Everyone has the following installed:
 
 ## Learning Objectives
 
+* **Lower the barrier to getting started with Python.**
 * Provide an overview / intro to the core python language
 * Provide an overview / intro to some basic programming tools
    * **virtualenv / pip:** managing dependencies
@@ -83,5 +84,6 @@ Everyone has the following installed:
 * departure from standard lecture / lab format
 * A *LOT* of material to be covered.
 * Trying out new approach / small lesson / small group exercise
+* The course will cover more material in less depth
 * Much of the course will use Jupyter notebooks
 * Hoping the notebooks can serve as a place where you can add your notes, and include code examples.
