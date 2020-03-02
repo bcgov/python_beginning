@@ -8,13 +8,14 @@
 * Whoami
 * Who are you.
    * Name
-   * What you want to be able to use python for
-   * What you are hoping to walk away from the course with.
+   * How are you going to use Python in your work... Ideally next week.
+   * Are their specific things you are hoping to learn
 
 ### Why Python
-* Easiest / Cleanest / Fastest for development
+* Easiest / Cleanest / Fastest language to develop with
 * Mature, **tons of docs**, tons of third party contributions
 * Continues to Grow...
+* ... More people using... more help that is available.
 
 **Programming language Growth**
 
@@ -65,8 +66,9 @@ Everyone has the following installed:
 * git
 * vscode
 * vscode python extension
+* some kind of useful text editor (ideally notepad++)
 
-## Learning Objectives
+## Teaching Objectives
 
 * **Lower the barrier to getting started with Python.**
 * Provide an overview / intro to the core python language
@@ -74,6 +76,7 @@ Everyone has the following installed:
    * **virtualenv / pip:** managing dependencies
    * **git:** source code / version management
    * **VSCode:** Integrated Development Environment (IDE)
+* Identify additional topics to pursue beyond those covered in this training.
 * Get you started with how to interact with web services using python
 
 * Course is designed to you started.
