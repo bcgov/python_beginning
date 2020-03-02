@@ -91,7 +91,7 @@ git checkout -b participant master
 * [git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
 
-# Intro To VSCode - 1
+# Intro To VSCode
 
 <img src="https://lh3.googleusercontent.com/fpy1e4CEAG7bdNMGihezo_-eTUj_w5nyoYT8lrT-KT6w4AstNaool4Ny7R4aFzhjkjpkgJdLfLNNAmHqjWVrV_2zaY0GFfOB9euEAu32cgdPtdazbDuVVoKEZgrXGPnCfDMGeL8lUeAnuwC_WkBVmRkbzeCjyDBJBGvZtBlWZfhq4t7Y0nAJtQjM9oljH1f5gKPMkO_pIUCeaE0GCRBPFZrQ4cLGDSd-PBsod-tsWuCNrmY5jRl9pDmmzlnesBTMUcWCtoAoqKPAjHYSjwDY218sjl4InELb1_fkpx907y30WXjYu54cyoXOfg39roNWJ9iMqWztoOPJh8JDXcBQjcYYXon8774AfJEmYkmiOYUdq4rl_X5QAH7b1P2xkcBpymp_wVy35RbZrG4w_MVw7mDSdbudHPCaaChLyNRcZXQLgVhF2S1tJ1vi59e1gJlu9HRly-zE_3Z518PCG3CAu9v0qpAWkAmvRYZ3Q16BZz5cQ4Oj6XVNXILyVTq1OMy108ukWBsBC981aRuPPzLv8_Iaa7xShfkCr02qDifJEoqw-fuD5l6Bl9B4lxCWbhjuVbbQoq23YA2265Tm5Oc0Z0r8NGF6i5ctWjnTAQk94ZrwSGoRScXqJsvR4vxTvqLyPB729TVq2GHfk5qxeEyGzX1zEOjfHBCcuskmSWFywih3D5jg8x0ULmpYo74WsjvfFbi2h18Twf4blxPD_qcniC0n_QJr4_OgHg2OVRPKxiQ7Rwu8=w716-h954-no" width="200">
 
@@ -288,7 +288,7 @@ Type "help", "copyright", "credits" or "license" for more information.
     *  type: `exit()`
     * ctrl->z->enter
 
-### [Getting Help](https://developers.google.com/edu/python/introduction#online-help,-help-,-and-dir)
+### [Getting Help as you continue your python journey](https://developers.google.com/edu/python/introduction#online-help,-help-,-and-dir)
 
 * google your question
 * search stack exchange directly
