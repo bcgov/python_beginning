@@ -2,24 +2,29 @@
 
 *outline / notes page for delivery of intro / admin. topics to be covered*
 
-## Welcome
+## Summary
 
-### Introductions
+* introducions
+* a few words on why python is awesome
+* review pre-req's
+* teaching objectives
+
+### Introductions / Welcome
 * Whoami
 * Who are you.
    * Name
    * How are you going to use Python in your work... Ideally next week.
    * Are their specific things you are hoping to learn
 
-### Why Python
+## Why Python
 * Easiest / Cleanest / Fastest language to develop with
-* Mature, **tons of docs**, tons of third party contributions
+* Mature, **tons of docs**, tons of third party contributions, been around since the 90's
 * Continues to Grow...
 * ... More people using... more help that is available.
 
 **Programming language Growth**
 
-<IMG src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png" width=700>
+<IMG src="https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png" width="700">
 
 **Questions on Stackexchange**
 
@@ -60,7 +65,7 @@ break      except     in         raise
 
 **references**: [1](https://www.python.org/about/apps/), [2](https://intersog.com/blog/some-cool-things-you-can-do-with-python/), [3](https://www.freecodecamp.org/news/what-can-you-do-with-python-the-3-main-applications-518db9a68a78/)
 
-### Review Pre-requisites
+## Review Pre-requisites
 Everyone has the following installed:
 * python 3
 * git
@@ -73,13 +78,13 @@ Everyone has the following installed:
 * **Lower the barrier to getting started with Python.**
 * Provide an overview / intro to the core python language
 * Provide an overview / intro to some basic programming tools
-   * **virtualenv / pip:** managing dependencies
-   * **git:** source code / version management
-   * **VSCode:** Integrated Development Environment (IDE)
+     * **virtualenv / pip:** managing dependencies
+     * **git:** source code / version management
+     * **VSCode:** Integrated Development Environment (IDE)
 * Identify additional topics to pursue beyond those covered in this training.
-* Get you started with how to interact with web services using python
+* Get you started with how to interact with web services using python (hopefully)
 
-* Course is designed to you started.
+* Course is designed to get you started.
     * Revisit the docs at [python.org](https://docs.python.org/3/) regularly as your skills grow
     * [python.org tutorial](https://docs.python.org/3/tutorial/index.html) is a good place to come back to on a regular basis.
 
@@ -90,3 +95,5 @@ Everyone has the following installed:
 * The course will cover more material in less depth
 * Much of the course will use Jupyter notebooks
 * Hoping the notebooks can serve as a place where you can add your notes, and include code examples.
+
+**Warning:**  This is my first time doing this specific course. 
