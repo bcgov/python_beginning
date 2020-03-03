@@ -50,7 +50,7 @@
 <img src="https://i2.wp.com/digitalvarys.com/wp-content/uploads/2019/06/GIT-Branchand-its-Operations.png?resize=1024%2C563&ssl=1" width="500" style="background-color:white;padding:20px;">
 
 * Branches allow you to maintain more than one state of your repository
-* example `master` branch is normally your production ready code.  
+* example `master` branch is normally your production ready code.
 * you don't want to modify the `master` branch until you know your code is good.
 * You can put your code that you are working on in a different branch, then when its ready you can merge it with the `master` branch.
 
@@ -66,15 +66,17 @@
 
 **windows instructions**
 * list existing branches
+* get the latest changes that were made last night
 ```
 c:
 cd c:/training/python
 git branch -a
+git pull origin master
 ```
 
 ### Create a new branch for the training
 * we are going to create a separate branch for the training.
-* this will allow you to make changes to your version of the training 
+* this will allow you to make changes to your version of the training
 * allows me to make changes as I go.
 * later on if you want you can merge these changes into a single branch
 
@@ -83,6 +85,23 @@ git branch -a
 git checkout -b participant master
 ```
 * now any change / notes you make the training material will be tracked on your own branch
+
+### stage / commit
+
+* create a copy of hello.py and name it hello2.py
+
+```
+git add hello2.py
+git commit -m "adding a new file to our branch"
+# and just to confirm they are there
+git ls-files
+```
+
+### Next steps w/ git
+
+* normally when getting started you would be creating your own remote repo
+* you would then push your changes to the remote.
+* if we have time at the end of the lesson we can do a demo of how this works.
 
 ## More git info:
 * try the google there is a LOT of material out there
@@ -95,7 +114,7 @@ git checkout -b participant master
 
 <img src="https://lh3.googleusercontent.com/fpy1e4CEAG7bdNMGihezo_-eTUj_w5nyoYT8lrT-KT6w4AstNaool4Ny7R4aFzhjkjpkgJdLfLNNAmHqjWVrV_2zaY0GFfOB9euEAu32cgdPtdazbDuVVoKEZgrXGPnCfDMGeL8lUeAnuwC_WkBVmRkbzeCjyDBJBGvZtBlWZfhq4t7Y0nAJtQjM9oljH1f5gKPMkO_pIUCeaE0GCRBPFZrQ4cLGDSd-PBsod-tsWuCNrmY5jRl9pDmmzlnesBTMUcWCtoAoqKPAjHYSjwDY218sjl4InELb1_fkpx907y30WXjYu54cyoXOfg39roNWJ9iMqWztoOPJh8JDXcBQjcYYXon8774AfJEmYkmiOYUdq4rl_X5QAH7b1P2xkcBpymp_wVy35RbZrG4w_MVw7mDSdbudHPCaaChLyNRcZXQLgVhF2S1tJ1vi59e1gJlu9HRly-zE_3Z518PCG3CAu9v0qpAWkAmvRYZ3Q16BZz5cQ4Oj6XVNXILyVTq1OMy108ukWBsBC981aRuPPzLv8_Iaa7xShfkCr02qDifJEoqw-fuD5l6Bl9B4lxCWbhjuVbbQoq23YA2265Tm5Oc0Z0r8NGF6i5ctWjnTAQk94ZrwSGoRScXqJsvR4vxTvqLyPB729TVq2GHfk5qxeEyGzX1zEOjfHBCcuskmSWFywih3D5jg8x0ULmpYo74WsjvfFbi2h18Twf4blxPD_qcniC0n_QJr4_OgHg2OVRPKxiQ7Rwu8=w716-h954-no" width="200">
 
-Basic orientation.  Will cover more of this later once we get into 
+Basic orientation.  Will cover more of this later once we get into
 code editing as some of those features will be more applicable then.
 
 This lesson will loosely follow the VS code [getting started with the userinterface doc](https://code.visualstudio.com/docs/getstarted/userinterface)
@@ -112,7 +131,7 @@ This lesson will loosely follow the VS code [getting started with the userinterf
 
 * Nobody uses vi to write briefing notes.
 * Why would you use a text editor for writing code.
-* designed to make your job easier...   
+* designed to make your job easier...
 * ... if not initially in the long run for sure.
 
 ## Sidebar / Activity Bar
@@ -120,7 +139,7 @@ This lesson will loosely follow the VS code [getting started with the userinterf
 * Review Sidebar / Activity Bar - Only options we may use in this course.
     * explorer
     * search and destroy (replace)
-    * git 
+    * git
     * debugger
     * testing
     * Extensions
@@ -141,7 +160,7 @@ This lesson will loosely follow the VS code [getting started with the userinterf
 * not so Zen Mode.
     * _View->Appearance->Zen Mode_
     * Remember _ESC_ _ESC_ to exit
-* F11 to go in and out of full screen 
+* F11 to go in and out of full screen
 * wordwrap option
 * minimap option
 
@@ -164,7 +183,7 @@ This lesson will loosely follow the VS code [getting started with the userinterf
 
 Allows for isolation of dependencies between projects.
 
-* Python comes with a lot builtin.  
+* Python comes with a lot builtin.
 * Avoid re-inventing the wheel and re-use code wherever possible.
 * Each project may have different set of requirements.
 * projects may have the same module requirement but different versions.
@@ -181,7 +200,7 @@ Allows for isolation of dependencies between projects.
 ### Confirm python version
 
 * open a terminal
-* type `python` and ensure that resolves to python 3 version, ie output looks similar to: 
+* type `python` and ensure that resolves to python 3 version, ie output looks similar to:
 
 ```python
 Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)] on win32
@@ -222,7 +241,7 @@ python -m virtualenv venv
 
 ```
 ...
-"python.pythonPath": "<path to virtualenv>", 
+"python.pythonPath": "<path to virtualenv>",
 ...
 ```
 
@@ -230,7 +249,7 @@ python -m virtualenv venv
 
 * with VSCode you shouldn't need to do this, especially if you named your virtualenv `venv`
 * You will need to do these steps if you build/deploy your code to Jenkins/Github Actions/Openshift.
-* to simulate this you can run these commands 
+* to simulate this you can run these commands
 
 #### Activate on Windows
 ```
@@ -257,9 +276,9 @@ source venv/bin/activate
 * Open a terminal if you don't already have one open
 * Make sure its using the virutalenv, prompt should look similar to what is shown below.  Make sure you can see `(venv)` at the start of the prompt
 
-``` 
+```
 (venv) @ C:\training\python
-$ 
+$
 ```
 
 * install the training dependencies:
@@ -280,7 +299,7 @@ pip install -r requirements.txt
 $ python
 Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
+>>>
 ```
 
 * `>>>` is the python prompt.
