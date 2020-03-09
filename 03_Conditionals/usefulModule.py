@@ -2,6 +2,7 @@
 * demo concept that module can be an executable as well as a library 
   by organizing this way.
 '''
+print(f'B: the file path is: {__file__}')
 
 def addUptheNums(inList):
     """
@@ -30,3 +31,4 @@ if __name__ == '__main__':
     # these lines we only have a function definition
     newSum = addUptheNums([34, 23, 22, 7889, 23,1, 3, 877])
     print(f"the sum is {newSum}")
+

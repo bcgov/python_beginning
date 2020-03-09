@@ -1,0 +1,49 @@
+[
+    {
+        "comments": 0,
+        "comments_url": "https://api.github.com/gists/9dd52b04d6b2f99626290651d43e67a0/comments",
+        "commits_url": "https://api.github.com/gists/9dd52b04d6b2f99626290651d43e67a0/commits",
+        "created_at": "2019-12-06T19:07:07Z",
+        "description": "",
+        "files": {
+            "Visal_Studio_Code.md": {
+                "filename": "Visal_Studio_Code.md",
+                "language": "Markdown",
+                "raw_url": "https://gist.githubusercontent.com/franTarkenton/9dd52b04d6b2f99626290651d43e67a0/raw/0143a724d6e1d4f322002fc1320f42999103a595/Visal_Studio_Code.md",
+                "size": 1901,
+                "type": "text/markdown"
+            }
+        },
+        "forks_url": "https://api.github.com/gists/9dd52b04d6b2f99626290651d43e67a0/forks",
+        "git_pull_url": "https://gist.github.com/9dd52b04d6b2f99626290651d43e67a0.git",
+        "git_push_url": "https://gist.github.com/9dd52b04d6b2f99626290651d43e67a0.git",
+        "html_url": "https://gist.github.com/9dd52b04d6b2f99626290651d43e67a0",
+        "id": "9dd52b04d6b2f99626290651d43e67a0",
+        "node_id": "MDQ6R2lzdDlkZDUyYjA0ZDZiMmY5OTYyNjI5MDY1MWQ0M2U2N2Ew",
+        "owner": {
+            "avatar_url": "https://avatars3.githubusercontent.com/u/3074159?v=4",
+            "events_url": "https://api.github.com/users/franTarkenton/events{/privacy}",
+            "followers_url": "https://api.github.com/users/franTarkenton/followers",
+            "following_url": "https://api.github.com/users/franTarkenton/following{/other_user}",
+            "gists_url": "https://api.github.com/users/franTarkenton/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/franTarkenton",
+            "id": 3074159,
+            "login": "franTarkenton",
+            "node_id": "MDQ6VXNlcjMwNzQxNTk=",
+            "organizations_url": "https://api.github.com/users/franTarkenton/orgs",
+            "received_events_url": "https://api.github.com/users/franTarkenton/received_events",
+            "repos_url": "https://api.github.com/users/franTarkenton/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/franTarkenton/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/franTarkenton/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/franTarkenton"
+        },
+        "public": true,
+        "truncated": false,
+        "updated_at": "2020-01-31T19:21:06Z",
+        "url": "https://api.github.com/gists/9dd52b04d6b2f99626290651d43e67a0",
+        "user": null
+    }
+]

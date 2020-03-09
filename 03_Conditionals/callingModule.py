@@ -11,6 +11,9 @@ Review concepts of:
 import usefulModule
 import sys
 
+print(f'A: the file path is: {__file__}')
+
+'''
 # demo of how you can send args to a script
 print(f"name of script being executed is: {sys.argv[0]}")
 print(f'args sent to this script are: {sys.argv[1:]}')
@@ -21,6 +24,7 @@ print(f'the sum of the numbers is: {sumOfList}')
 
 # if args are sent to script include them in the calculation of the sum
 if sys.argv[1:]:
+    print(f'args sent to script: {sys.argv[1:]}')
     # args are always sent as strings, so need to conver to numbers
     argListAsNums = usefulModule.convertToNums(sys.argv[1:])
 
@@ -28,3 +32,4 @@ if sys.argv[1:]:
     # now add those to the other sum
     newSum = sumOfArgs + sumOfList
     print(f"total after adding the args sent: {newSum}")
+'''
