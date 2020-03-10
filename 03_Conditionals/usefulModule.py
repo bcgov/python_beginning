@@ -2,7 +2,8 @@
 * demo concept that module can be an executable as well as a library 
   by organizing this way.
 '''
-
+var1 = 'im var 1'
+var2 = 'im var2'
 def addUptheNums(inList):
     """
     :param inList: a list of numbers.  The list must only contain 
@@ -30,3 +31,16 @@ if __name__ == '__main__':
     # these lines we only have a function definition
     newSum = addUptheNums([34, 23, 22, 7889, 23,1, 3, 877])
     print(f"the sum is {newSum}")
+
+class testclass:
+
+    def __init__(self, var=None):
+        print('im an object')
+
+    def dosomething(self):
+        self.__private()
+        print("hi")
+
+    def __private(self):
+        print("private")
+

@@ -1,2 +1,3 @@
 jupyter==1.0.0
 requests==2.23.0
+cx_Oracle==7.3.0

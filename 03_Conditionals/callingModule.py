@@ -7,13 +7,24 @@ Review concepts of:
   
 '''
 
-
 import usefulModule
 import sys
+
+obj = usefulModule.testclass()
+obj.dosomething()
+#obj.__private()
 
 # demo of how you can send args to a script
 print(f"name of script being executed is: {sys.argv[0]}")
 print(f'args sent to this script are: {sys.argv[1:]}')
+
+
+var1= 'better var1'
+var2= 'this is var2'
+print(var1, var2)
+
+print(usefulModule.var1, usefulModule.var2)
+
 
 myList = [2, 23, 234, 2, 3, 8, 97, 78, 9, 54, 3, 9, 23]
 sumOfList = usefulModule.addUptheNums(myList)
