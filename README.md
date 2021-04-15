@@ -42,3 +42,5 @@ git pull origin master
 **Warning**: Trying a different approach in this training... Not sure how far we will get.
 
 *Stay tuned!  Checkback often as more content is added here!*
+
+[![img](https://img.shields.io/badge/Lifecycle-Dormant-ff7f2a)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
